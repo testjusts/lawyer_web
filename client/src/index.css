@@ -1,0 +1,1477 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  line-height: 24px;
+}
+#root { 
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul.list-unstyled li a.button {
+  color: #2196f3;
+}
+
+h2 {
+font-weight: 300;
+font-size: 30px;
+line-height: 36px;
+margin:0;
+}
+
+
+/* .slick-slide{
+} */
+
+.slick-track{
+  width:100%;
+  display:flex;
+  /* flex-direction: column; */
+}
+
+.slick-dots{
+  bottom:-50px;
+}
+
+.slick-arrow{
+  z-index: 1;
+  width:37px;
+  height: 37px;
+  border:1px solid rgb(155, 9, 9);
+} 
+
+.slick-prev{
+  left:-50px;
+  background-color:rgb(1, 220, 16);
+}
+.slick-next{
+  right:-15px;
+  background-color:rgb(1, 220, 26);
+}
+
+.slick-next:hover{
+  background-color:rgb(155, 9, 9);
+}
+.slick-prev:hover{
+  background-color:rgb(155, 9, 9);
+}
+
+
+.block-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+}
+.containerTalkToLawyer{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+}
+.containerIndianKannon{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-12 {
+  width: 100%;
+}
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: left;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+  float: left;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+  float: left;
+}
+
+.bareact-div {
+  background: #2196f3;
+  border: 1px solid #cdcdcd;
+  padding: 20px;
+  text-align: center;
+  vertical-align: center;
+  margin: 15px;
+  box-shadow: rgb(0 0 0 / 30%) 0 2px 6px 0 !important;
+  height: 100px;
+}
+
+.bareact-div p {
+  color: #ffffff;
+  /* margin-top: 20px; */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.button-primary {
+  background: #2196f3;
+  color: #fff;
+  border: 1px solid #2196f3;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  line-height: 1.42857143;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+}
+
+.col-md-4 {
+  width: 33.33333333%;
+  margin-bottom: 0px;
+}
+
+.block-card {
+  border: 1px solid #cdcdcd;
+  padding: 27px 30px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 20px;
+  text-align: left;
+  /* min-height: 365px; */
+}
+
+
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0px;
+
+}
+
+.arrow-list-fancy {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+
+.arrow-list-fancy a {
+  color: #333;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.arrow-list-fancy:before {
+  content: '';
+  background: url(https://lawrato.com/assets/img/sprite/icon/list-arrow-icon.png) no-repeat left top;
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  top: 3px;
+  position: absolute;
+  left: 0;
+}
+
+:after, :before {
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 40px;
+  display:block;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .containerTalkToLawyer:after, .containerIndianKannon:after, .container:before, .containerTalkToLawyer:before, .containerIndianKanoon:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+  display: table;
+  content: " ";
+}
+
+.input-text {
+  border: 1px solid #d3d3d3;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 48px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 0px;
+  outline-color: #2196f3;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-image: none;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+}
+
+select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  display: none;
+}
+
+.selectize-control {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+control.single .selectize-input, .selectize-control.single .selectize-input input {
+  cursor: pointer;
+}
+
+.rq-category-select .selectize-input {
+  position: relative;
+  border-color: #d6d6d6;
+  box-shadow: none;
+  border-radius: 2px;
+  color: #666;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+.selectize-input {
+  border: 1px solid #d0d0d0;
+  padding: 8px 8px;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.selectize-input, .selectize-control.single .selectize-input.input-active {
+  background: #fff;
+}
+
+.selectize-dropdown, .selectize-input, .selectize-input input {
+  font-family: inherit;
+  line-height: 18px;
+  -webkit-font-smoothing: inherit;
+}
+
+
+
+.selectize-control.single .selectize-input:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #808080 transparent transparent transparent;
+}
+.selectize-input::after {
+  content: ' ';
+  display: block;
+  clear: left;
+}
+
+.selectize-control.single .selectize-input:after {
+  display: block;
+  position: absolute;
+  margin-top: -3px;
+  width: 0;
+  height: 0;
+}
+
+.selectize-input::after {
+  clear: left;
+}
+
+.selectize-input>input {
+  display: inline-block;
+  padding: 0;
+  min-height: 0;
+  max-height: none;
+  max-width: 100%;
+  margin: 0 2px 0 0;
+  text-indent: 0;
+  border: 0 none;
+  background: none;
+  line-height: inherit;
+  box-shadow: none;
+}
+
+.two-cols .content-right {
+  padding-left: 0;
+  margin-left: -15px;
+}
+
+.block-item {
+  margin-bottom: 57px;
+}
+
+.card .card-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+img {
+  vertical-align: middle;
+  border:0;
+}
+
+.card .card-desc {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.col-sm-8 {
+  width: 66.66666667%;
+}
+
+.col-sm-4 {
+  width: 33.33333333%;
+}
+
+.col-sm-12 {
+  width: 100%;
+}
+
+/* signup-page */
+.service-hero {
+  background-size: cover;
+  margin-top: -20px;
+  color: #fff;
+}
+
+.col-sm-7 {
+  width: 58.33333333%;
+}
+
+.service-hero h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+
+.col-sm-5 {
+  width: 41.66666667%;
+}
+
+.signup{
+  background-color: #fff;
+    border: 1px solid #cdcdcd;
+    padding: 20px;
+}
+
+.quick-menu {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 0;
+}
+
+.border-bottom-default {
+  border-bottom: 1px solid #cecece;
+}
+
+.media:first-child {
+  margin-top: 0;
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
+.media, .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-left, .media-right {
+  display: table-cell;
+}
+
+.media-left, .media>.pull-left {
+  padding-right: 10px;
+}
+
+.media-object {
+  display: flex;
+}
+
+img {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+}
+
+.media-body {
+  width: 10000px;
+}
+
+.media, .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media-heading {
+  color: #5e5e5e;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.media-body .media-heading {
+ 
+  display: block;
+}
+
+
+.quick-menu .container .containerTalkToLawyer .containerIndianKannon>.row {
+  margin-left: -35px;
+}
+
+.row {
+  margin-right: -15px;
+}
+
+.quick-menu .container .containerTalkToLawyer .containerIndianKannon>.row>div {
+  padding-left: 35px;
+  padding-right: 35px;
+  border-right: 1px solid #cecece;
+}
+
+.quick-menu .container .containerTalkToLawyer .containerIndianKannon>.row>div:last-child {
+  border-right: 0;
+}
+
+
+.col-sm-12 {
+  width: 100%;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+  display: none!important;
+}
+
+#profie_pic{
+  width: 20%;
+  border-radius: 50px;
+}
+
+.topRated{
+  display: flex;
+  justify-content: center;
+   flex-direction: column;
+   text-align: center;
+    margin: 5rem 5rem;
+}
+.toprated_heading{
+ margin-bottom: 4rem;
+}
+
+.about_sec{
+  background: #fafafa;
+  height:40vh;
+}
+.about_card{
+  width: 1170px;
+  margin: 0rem auto;
+   padding: 0px 15px;
+}
+
+.footer_first{
+  width: 1170px;
+  margin: 0rem auto;
+  padding: 0px 15px;
+}
+.footer_sec{
+  width: 1170px;
+  margin: 0rem auto;
+  padding: 0px 15px;
+}
+.footer_third{
+  display: flex;
+  justify-content: center;
+}
+.footer_fifth{
+  width: 1170px;
+  margin: 0rem auto;
+  padding: 0px 15px;
+}
+
+.tab_menu{
+  margin: 0rem 23.3rem;
+}
+
+.topBar{
+  display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 7rem;
+}
+.main_heading{
+  margin-top: 0.8rem;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main_para{
+  font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.main_searchBoxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox{
+ display:flex;
+    }
+.findlawyers_all{
+  margin: 4rem 10rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.tabDirection {
+  display:flex;
+}
+.Brand{
+  width: 710px;
+  margin: 0px auto;
+  padding: 0px 15px
+}
+
+.footer_my{
+  margin: 0px -15px;
+    padding: 2rem;
+}
+.footer-nav{
+  height: 70vh;
+}
+
+.footer_hero{
+  padding: 60px;
+    border-top: 1px solid rgb(149, 149, 149);
+    margin-top: -285px;
+    height: 0vh;
+}
+
+.footer_ul_img{
+  display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: -20px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.main_btns{
+  margin-bottom: 40px;
+}
+.myRow{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.entire_sidebarRND{
+  display: flex;
+}
+.sidebarRND_hero{
+  margin: 2rem;
+}
+.sidebar{
+  width:28%;
+  background-color: rgb(242, 242, 242);
+}
+.sidebar_search{
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.media-object_img{
+  border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 30%) 1px 1px 1px;
+    width: 86px;
+    height: 115px;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+    /* margin: 0.45rem 2rem; */
+    border: 0px;
+}
+.toprated_card_box{
+  border: 1px solid rgb(205, 205, 205);
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 90%;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toprated_card_inner{
+  display: flex;
+justify-content: space-between;
+  
+}
+.toprated_card_inner_img{
+  margin-top:22px;
+}
+.client{
+  display: flex;
+  background-color: rgb(242, 242, 242);
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem 4rem;
+}
+.breadcrumbs{
+  margin:1.5rem 5rem;
+  }
+  .BareactsOnly{
+   text-align: center;
+  }
+  .modalcss{
+    position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 7px;
+  background-color: white;
+  }
+
+/* media Query: */
+/* @media only screen and (min-width: 1201px) {
+  .slick-next{
+    right:-54px;
+  }
+  .modalcss {
+    top: 40%;
+    left: 46%;
+}
+.findlawyers{
+  width:90%;
+}
+.findlawyers_all {
+  margin: 4rem 3rem;}
+
+  .legalAdvice{
+    flex-direction: column;
+  }
+  .legalAdvice_one{
+    margin-bottom: 4rem;
+  }
+  .toprated_card{
+    width:145%;
+  }
+  .client_Card{
+    margin:0rem 1rem;
+  }
+  .about_sec{
+    height: 34vh;
+  }
+  .about_card{
+    width:910px;
+  }
+  .footer_first{
+    width:910px;
+  }
+  .footer-nav {
+    height: 27vh;
+}
+  .footer_third{
+    margin:-1rem 0rem
+  }
+  .footer_forth{
+    margin:15rem 0rem;
+  }
+  .footer_fifth{
+    width:910px;
+    margin:-18rem 0rem;
+  }
+  .footer_hero{
+      margin-top: -295px;
+  }
+
+  .legal_one_heading{
+    display: table-cell;
+    vertical-align: top;
+    width: 53%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .sidebar_search{
+ width:225px;
+}
+.col-sm-8 {
+  width: 51.666667%;
+}
+.col-sm-12 {
+width: 85%;
+}
+.container{
+  width:1000px;
+}
+  
+} */
+@media screen and (min-width: 900px) and (max-width: 1200px){
+  .slick-next{
+    right:-54px;
+  }
+  .modalcss {
+    top: 40%;
+    left: 46%;
+}
+.findlawyers{
+  width:90%;
+}
+.findlawyers_all {
+  margin: 4rem 3rem;}
+
+  .legalAdvice{
+    flex-direction: column;
+  }
+  .legalAdvice_one{
+    margin-bottom: 4rem;
+  }
+  .toprated_card{
+    width:145%;
+  }
+  .client_Card{
+    margin:0rem 1rem;
+  }
+  .about_sec{
+    height: 34vh;
+  }
+  .about_card{
+    width:910px;
+  }
+  .footer_first{
+    width:910px;
+  }
+  .footer-nav {
+    height: 27vh;
+}
+  .footer_third{
+    margin:-1rem 0rem
+  }
+  .footer_forth{
+    margin:15rem 0rem;
+  }
+  .footer_fifth{
+    width:910px;
+    margin:-18rem 0rem;
+  }
+  .footer_hero{
+      margin-top: -295px;
+  }
+
+  .legal_one_heading{
+    display: table-cell;
+    vertical-align: top;
+    width: 53%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .sidebar_search{
+ width:225px;
+}
+.col-sm-8 {
+  width: 51.666667%;
+}
+.col-sm-12 {
+width: 85%;
+}
+.containerIndianKannon{
+  width:1024px;
+}
+  
+}
+@media screen and (min-width: 686px) and (max-width: 899px){
+  .modalcss {
+    top: 26%;
+    left: 35%;
+}
+.main_para {
+  font-size: 25px;}
+.topRated {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 5rem 2.5rem;
+}
+.toprated_card_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+  .toprated_card{
+    width:126%;
+  }
+  .findlawyers{
+    width:90%;
+  }
+  .findlawyers_all {
+    margin: 4rem 2.5rem;}
+  .about_sec{
+    height: 50vh;
+  }
+  .about_card{
+    width:700px;
+  }
+  .footer_first{
+    width:115%;
+    margin-left:-33px;
+  }
+  .footer-nav {
+    height: 35vh;
+}
+.footer_hero {
+  padding: 60px;
+  border-top: 1px solid rgb(149, 149, 149);
+  margin-top: -320px;
+  height: 0vh;
+}
+  .footer_third{
+    width:65%;
+    margin: -3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_forth{
+    margin:16rem 0rem;
+  }
+  .footer_fifth{
+    width:705px;
+    margin:-8rem 0rem;
+  }
+  .tab_menu{
+    margin: 0rem 4.03rem;
+  }
+  .sidebar{
+    width:40%;
+    background-color: rgb(242, 242, 242);
+  }
+  .sidebar_card{
+  width:107%;
+  }
+  .slick-prev {
+    top: 210px;
+    left: -39px;
+    background-color: rgb(1, 220, 16);
+}
+  .slick-next {
+    top: 210px;
+    right: -47px;
+    background-color: rgb(1, 220, 26);
+}
+  .col-sm-8 {
+    width: 34.666667%;
+}
+.col-sm-12 {
+  width: 68%;
+}
+.containerTalkToLawyer{
+  width:1175px;
+}
+.containerIndianKannon {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 809px;
+}
+.bareact-div {
+  background: #2196f3;
+  border: 1px solid #cdcdcd;
+  padding: 4px;
+  text-align: center;
+  vertical-align: center;
+  margin: 15px;
+  box-shadow: rgb(0 0 0 / 30%) 0 2px 6px 0 !important;
+  height: 100px;
+}
+}
+
+@media screen and (min-width: 401px) and (max-width: 685px){
+  .modalcss {
+    top: 26%;
+    left: 33%;
+}
+
+  .topBar{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0rem -1rem;
+    width: 109vw;
+  }
+  .logo_div{
+    width:18%;
+  }
+  .logo{
+    width:100%;
+  }
+  .main_heading{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .main_para{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    
+  }
+  .main_searchBoxes{
+flex-direction: column;
+  }
+
+  .legalAdvice{
+    flex-direction: column;
+  }
+  .legalAdvice_one{
+    margin-bottom: 4rem;
+  }
+  .legal_one_heading{
+    display: table-cell;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .toprated_card{
+    width:108%;
+  }
+  .topRated {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 2.5rem;
+}
+  .toprated_card_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+.slick-prev {
+  left: -39px;
+  background-color: rgb(1, 220, 16);
+}
+  .findlawyers{
+    width:98%;
+  }
+  .findlawyers_all{
+    margin: 4rem .3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .tabDirection {
+    display:flex;
+    flex-direction: column;
+}
+.Brand{
+  width: 434px;
+  margin: 0px auto;
+  padding: 0px 15px
+}
+.about_card{
+  width:427px;
+}
+.about_sec{
+  height: 75vh;
+}
+.footer_my{
+  display: flex;
+    flex-direction: column;
+    margin: 0px 90px;
+    padding: 2rem;
+    
+}
+.footer-nav{
+    height:0vh;
+}
+
+.footer_third{
+  /* margin:-1rem 0rem; */
+  width: 39%;
+  margin: -3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_forth{
+  margin:14rem 0rem;
+}
+.footer_fifth {
+  width: 446px;
+  margin: -19rem 0rem;
+}
+.footer_hero{
+  padding: 60px;
+    margin-top: -285px;
+    height: 88vh;
+}
+.footer_ul_img{
+  margin-left: -50px;
+}
+
+.footer_img{
+  width:90%
+}
+.containerTalkToLawyer {
+  width: 1173px;
+}
+.containerIndianKannon {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1900px;
+}
+.myRow{
+  display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.entire_sidebarRND{
+  flex-direction: column;
+}
+.sidebarRND_hero{
+    margin: 2rem;
+}
+
+.sidebar{
+  width:100%;
+  background-color: rgb(242, 242, 242);
+}
+.sidebar_card{
+width:107%;
+}
+.bareact-div {
+  height: auto !important;
+}
+.col-sm-8 {
+  width: 42.666667%;
+}
+.talktolawyer_heading{
+  line-height: 30px;
+}
+.col-sm-4 {
+  width: 58.333333%;
+}
+.extra{
+  background: rgb(251, 251, 251);
+  width: 75%;
+  min-height: 0px;
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+  float: none;
+}
+.col-sm-12 {
+  width: 43%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: none;
+}
+.col-md-4 {
+  width: 26.333333%;
+}
+.col-lg-12 {
+  width: 27%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+  float: none;
+}
+.BareactsOnly{
+  margin-left: -87rem;
+}
+
+}
+@media screen and (min-width: 0px) and (max-width: 400px){
+  .modalcss {
+    top: 28%;
+  left: 33%;
+}
+
+  .topBar{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0rem -1rem;
+    width: 109vw;
+  }
+  .logo_div{
+    width:18%;
+  }
+  .logo{
+    width:100%;
+  }
+  .main_heading{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .main_para{
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-left:16px;
+    
+  }
+
+  .main_btns{
+    display: flex;
+    margin-left:15px;
+    margin-right:15px;
+  }
+  .main_searchBoxes{
+flex-direction: column;
+  }
+  .searchBox{
+flex-direction: column;
+  }
+
+  .legalAdvice{
+    flex-direction: column;
+  }
+  .legalAdvice_one{
+    margin-bottom: 4rem;
+  }
+  .legal_one_heading{
+    display: table-cell;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .topRated{
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     text-align: center;
+      margin-top:5rem;
+      margin-bottom:5rem;
+      margin-left:3.5rem;
+      margin-right:3.5rem;
+  }
+  .toprated_card{
+    width:122%;
+  }
+  .findlawyers{
+    width:98%;
+  }
+  .findlawyers_all{
+    margin: 4rem .3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .tabDirection {
+    display:flex;
+    flex-direction: column;
+}
+.Brand{
+  width: 373px;
+  margin: 0px auto;
+  padding: 0px 15px
+}
+.about_card{
+  width:358px;
+}
+.about_sec{
+  height: 80vh;
+}
+.footer_my{
+  display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    padding: 2rem;
+    
+}
+.footer-nav{
+    height:0vh;
+}
+
+.footer_third{
+  /* margin:-1rem 0rem; */
+  width: 41%;
+  margin-top:-2.5rem;
+  margin-bottom: -3rem;
+  margin-left:-3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_forth{
+  margin:13rem 0rem;
+}
+.footer_fifth{
+  width:390px;
+  margin:-16rem -1rem;
+}
+.footer_hero{
+  padding: 60px;
+    margin-top: -285px;
+    height: 88vh;
+}
+.footer_ul_img{
+  margin-left: -50px;
+}
+
+.footer_img{
+  width:90%
+}
+.entire_sidebarRND{
+  flex-direction: column;
+}
+.sidebarRND_hero{
+  margin: 2rem;
+}
+.sidebar{
+  width:100%;
+  background-color: rgb(242, 242, 242);
+}
+.sidebar_card{
+width:117%;
+}
+.media-object_img{
+  border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 30%) 1px 1px 1px;
+    width: 86px;
+    height: 115px;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+    /* margin: 0.45rem 2rem; */
+    border: 0px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.toprated_card_box{
+  width: 82%;
+}
+
+.toprated_card_inner{
+  display: flex;
+  flex-direction: column;
+
+}
+.toprated_card_inner_img{
+  margin:10px 36px;
+}
+
+/* .slick-prev{
+  left:-50px;
+} */
+.slick-next{
+  right:1px;
+}
+.client{
+  display: none;
+}
+.bareact-div {
+  height: auto !important;
+}
+.bareact-div {
+  height: auto !important;
+}
+.col-sm-8 {
+  width: 33.666667%;
+}
+.talktolawyer_heading{
+  line-height: 30px;
+}
+.col-sm-4 {
+  width: 58.333333%;
+}
+.extra{
+  background: rgb(251, 251, 251);
+  width: 59%;
+  min-height: 0px;
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+  float: none;
+}
+.col-sm-12 {
+  width: 30%;
+}
+.containerTalkToLawyer {
+  width: 1057px;
+}
+.containerIndianKannon {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1401px;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: none;
+}
+.col-md-4 {
+  width: 26.333333%;
+}
+.col-lg-12 {
+  width: 25%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+  float: none;
+}
+.BareactsOnly{
+  margin-left:-65rem;
+}
+.breadcrumbs {
+  margin: 1.5rem 2rem;
+}
+
+
+
+}
+
+
